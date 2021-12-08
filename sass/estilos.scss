@@ -128,6 +128,14 @@ body{
     line-height: 25px;
     color: $verdeNavbar
 }
+.h3Usos{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: $verdeNavbar
+}
 .bordeR{
     border-radius: 15px;
 }
@@ -166,6 +174,23 @@ body{
     padding-bottom: 20px; /* This creates some space between the element and the border. */
     border-top: 1px solid rgba(31, 33, 32, 0.8);
 }
+.bordeTopVerde::before{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    padding-bottom: 20px; /* This creates some space between the element and the border. */
+    border-top: 1px solid #4ecb71;
+}
+.bordeBottomGris::before{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    padding-bottom: 20px; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid rgba(31, 33, 32, 0.8);
+}
+
 
 .card-body{
     padding: 10px;
