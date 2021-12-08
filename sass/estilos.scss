@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+@import "variables";
+@import "mixins";
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F1F1;
+    padding-top: 3.5rem;
+};
+
+
+.quienesSomos{
+    margin-top: 23%;
+}
+.mTop{
+    margin-top: 100px;
+}
+
+.iconoWs{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 1em;
+    right: .5em;
+}
+
+.menuGO{
+    background: $verdeNavbar;
+    border-bottom: solid white 10px;
+    z-index: 3;
+}
+
+.carruselHome{
+    margin-top: 3.5rem;
+    z-index: 2;
+    padding-top: 20px;
+}
+.carousel-control-next-icon {
+    margin-top: 20px; }
+  
+  .carousel-control-prev-icon {
+    margin-top: 20px; }
+
+.bgCarruselHome{
+    background: #FFD233;
+}
+
+.bgInside{
+    height: 55px;
+    width: 100vw;
+    left: 1px;
+    top: 7px;
+    border-radius: 5px;
+    background: #000000;
+    border-top: solid #FFD233 8px;
+    border-bottom: solid #FFD233 14px;
+        p{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            /*line-height: 15px;*/
+            /* identical to box height */
+            color: #FFFFFF;
+        }
+
+}
+
+.somosGO{   
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 128.91%;
+    /* or 32px */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+
+}
+
+.casita{
+    height: 27px;
+    width: 30px;
+    left: 304px;
+    top: 29px;
+    border-radius: 0px;
+
+}
+
+.h3HomeUno{
+    @include h3Home;
+    font-weight: bold;
+    font-size: 16px;
+}
+.h3SomosGreenO{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: $negroPrimario
+}
+
+.h3SomosGContenido{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: $negroPrimario
+}
+.h3SomosGreenExtra{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    color: $negroPrimario
+}
+.h3Aceites{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: $verdeNavbar
+}
+.bordeR{
+    border-radius: 15px;
+}
+
+.tachado{
+    text-decoration:line-through;
+    color: $verdeNavbar
+}
+.h3HomeResto{  
+    @include h3Home;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.homeConoceMas{
+    border-bottom: solid #FFD233 1px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #030303;
+    display: inline-block;
+        &:active{
+            color: #FFD233;
+            text-decoration: none;
+        }
+}
+
+.bordeTopGris::before{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    padding-bottom: 20px; /* This creates some space between the element and the border. */
+    border-top: 1px solid rgba(31, 33, 32, 0.8);
+}
+
+.card-body{
+    padding: 10px;
+  }
+
