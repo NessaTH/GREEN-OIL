@@ -10,7 +10,7 @@ body{
 
 
 .quienesSomos{
-    margin-top: 23%;
+    margin-top: 100px;
 }
 
 .iconoWs{
@@ -107,6 +107,10 @@ body{
             color: #FFD233;
             text-decoration: none;
         }
+        &:hover{
+            text-decoration: none;
+            color: #FFD233;
+        }
 }
 
 .bordeTopGris::before{
@@ -116,4 +120,18 @@ body{
     width: 100%; /* Change this to whatever width you want. */
     padding-bottom: 20px; /* This creates some space between the element and the border. */
     border-top: 1px solid rgba(31, 33, 32, 0.8);
+}
+
+.bgNegro{
+    background-color:#000000;
+}
+
+.contactoHome{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 128.91%;
+    /* or 22px */
+    color: #010101;
 }
