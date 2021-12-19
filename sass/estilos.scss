@@ -169,6 +169,42 @@ body {
   line-height: 128.91%;
   color: $verdeNavbar;
 }
+.h2ProductosVerde{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 32px;
+  color: #4ECB71;
+}
+.h2ProductosNegro{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 32px;
+  color: #010101;
+}
+.h3Productos{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+  color: #010101;
+}
+.h3ProductosV{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+  color: #4ECB71;
+}
+input[type=radio] {
+  transform: scale(1.5);
+}
+
 .bordeR {
   border-radius: 15px;
 }
