@@ -190,6 +190,46 @@ body {
 input[type=radio] {
   transform: scale(1.5); }
 
+.fontErrorB {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 32px;
+  color: #000000; }
+
+.fontErrorR {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 32px;
+  color: #CB4E4E; }
+
+.fontErrorPBlack {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+  color: #010101; }
+
+.fontErrorPRed {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 19px;
+  color: #CB4E4E; }
+
+.fontErrorPItalic {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  color: #010101; }
+
 .bordeR {
   border-radius: 15px; }
 
