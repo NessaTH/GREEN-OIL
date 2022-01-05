@@ -4,15 +4,6 @@ body {
   background-color: #f5f1f1;
   padding-top: 3.5rem; }
 
-.quienesSomos {
-  margin-top: 23%; }
-
-.mTop100 {
-  margin-top: 100px; }
-
-.mTop50 {
-  margin-top: 50px; }
-
 .iconoWs {
   width: 40px;
   height: 40px;
@@ -29,12 +20,6 @@ body {
   margin-top: 3.5rem;
   z-index: 2;
   padding-top: 20px; }
-
-.carousel-control-next-icon {
-  margin-top: 20px; }
-
-.carousel-control-prev-icon {
-  margin-top: 20px; }
 
 .bgCarruselHome {
   background: #ffd233; }
@@ -53,8 +38,6 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
-    /*line-height: 15px;*/
-    /* identical to box height */
     color: #ffffff; }
 
 .somosGO {
@@ -63,7 +46,6 @@ body {
   font-weight: 900;
   font-size: 25px;
   line-height: 128.91%;
-  /* or 32px */
   display: flex;
   align-items: center;
   color: #000000; }
@@ -82,6 +64,110 @@ body {
   line-height: 18px;
   font-weight: bold;
   font-size: 16px; }
+
+.h3HomeResto {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: normal;
+  font-size: 14px; }
+
+.homeConoceMas {
+  border-bottom: solid #ffd233 1px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #030303;
+  display: inline-block; }
+  .homeConoceMas:active {
+    color: #ffd233;
+    text-decoration: none; }
+
+.bordeTopVerde::before {
+  content: "";
+  /* This is necessary for the pseudo element to work. */
+  display: block;
+  /* This will put the pseudo element on its own line. */
+  margin: 0 auto;
+  /* This will center the border. */
+  width: 100%;
+  /* Change this to whatever width you want. */
+  padding-bottom: 20px;
+  /* This creates some space between the element and the border. */
+  border-top: 1px solid #4ecb71; }
+
+/*! Clases Mateo */
+.bgW {
+  background-color: white; }
+
+.linkNav {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.87); }
+
+.wImage {
+  width: 24px;
+  height: 24px; }
+
+.card-body {
+  padding: 10px; }
+
+.tachado {
+  text-decoration: line-through;
+  color: #4ECB71; }
+
+.bordeR {
+  border-radius: 15px; }
+
+.padding0 {
+  padding: 0; }
+
+.fontErrorB {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 32px;
+  color: #000000; }
+
+.fontErrorR {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 32px;
+  color: #cb4e4e; }
+
+.fontErrorPBlack {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+  color: #010101; }
+
+.fontErrorPRed {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 19px;
+  color: #cb4e4e; }
+
+.fontErrorPItalic {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  color: #010101; }
 
 .h3SomosGreenO {
   font-family: Montserrat;
@@ -161,7 +247,7 @@ body {
   font-weight: 900;
   font-size: 25px;
   line-height: 32px;
-  color: #4ECB71; }
+  color: #4ecb71; }
 
 .h2ProductosNegro {
   font-family: Montserrat;
@@ -185,82 +271,19 @@ body {
   font-weight: bold;
   font-size: 15px;
   line-height: 19px;
-  color: #4ECB71; }
+  color: #4ecb71; }
 
-input[type=radio] {
+input[type="radio"] {
   transform: scale(1.5); }
 
-.fontErrorB {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 25px;
-  line-height: 32px;
-  color: #000000; }
+.quienesSomos {
+  margin-top: 23%; }
 
-.fontErrorR {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 25px;
-  line-height: 32px;
-  color: #CB4E4E; }
+.mTop100 {
+  margin-top: 100px; }
 
-.fontErrorPBlack {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 19px;
-  color: #010101; }
-
-.fontErrorPRed {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 15px;
-  line-height: 19px;
-  color: #CB4E4E; }
-
-.fontErrorPItalic {
-  font-family: Montserrat;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 17px;
-  color: #010101; }
-
-.bordeR {
-  border-radius: 15px; }
-
-.padding0 {
-  padding: 0; }
-
-.tachado {
-  text-decoration: line-through;
-  color: #4ECB71; }
-
-.h3HomeResto {
-  font-family: Montserrat;
-  font-style: normal;
-  color: #000000;
-  line-height: 18px;
-  font-weight: normal;
-  font-size: 14px; }
-
-.homeConoceMas {
-  border-bottom: solid #ffd233 1px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 21px;
-  /* identical to box height */
-  color: #030303;
-  display: inline-block; }
-  .homeConoceMas:active {
-    color: #ffd233;
-    text-decoration: none; }
+.mTop50 {
+  margin-top: 50px; }
 
 .bordeTopGris::before {
   content: "";
@@ -275,57 +298,8 @@ input[type=radio] {
   /* This creates some space between the element and the border. */
   border-top: 1px solid rgba(31, 33, 32, 0.8); }
 
-.bordeTopVerde::before {
-  content: "";
-  /* This is necessary for the pseudo element to work. */
-  display: block;
-  /* This will put the pseudo element on its own line. */
-  margin: 0 auto;
-  /* This will center the border. */
-  width: 100%;
-  /* Change this to whatever width you want. */
-  padding-bottom: 20px;
-  /* This creates some space between the element and the border. */
-  border-top: 1px solid #4ecb71; }
+.carousel-control-next-icon {
+  margin-top: 20px; }
 
-.bordeBottomGris::before {
-  content: "";
-  /* This is necessary for the pseudo element to work. */
-  display: block;
-  /* This will put the pseudo element on its own line. */
-  margin: 0 auto;
-  /* This will center the border. */
-  width: 100%;
-  /* Change this to whatever width you want. */
-  padding-bottom: 20px;
-  /* This creates some space between the element and the border. */
-  border-bottom: 1px solid rgba(31, 33, 32, 0.8); }
-
-.card-body {
-  padding: 10px; }
-
-.bg-nav {
-  background-color: #4ECB71; }
-
-.bgW {
-  background-color: white; }
-
-.linkNav {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
-  color: rgba(0, 0, 0, 0.87); }
-
-.navbar-dark .navbar-nav .active > .nav-link {
-  color: #000000;
-  border: 0.5px solid #4ECB71;
-  padding-left: 10px; }
-
-.wImage {
-  width: 24px;
-  height: 24px; }
-
-.linkNav:focus {
-  background-color: #FFD233; }
+.carousel-control-prev-icon {
+  margin-top: 20px; }
