@@ -135,3 +135,182 @@ body{
     /* or 22px */
     color: #010101;
 }
+
+.bordeTopVerde::before{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 100%; /* Change this to whatever width you want. */
+    padding-bottom: 20px; /* This creates some space between the element and the border. */
+    border-top: 1px solid #4ECB71;
+}
+
+.h3Testimonios{
+    @include h3Home;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.h2Testimonios{
+    @include h3Home;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.respuestas{
+    @include h3Home;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+
+
+.normal{
+    font-weight: lighter;
+}
+
+.pTestimonios{
+    @include h3Home;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.preguntasF{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 15px;
+    color: #4ECB71;
+}
+
+.lineaDecor{
+    display: inline-block;
+    position: relative;
+}
+
+.lineaDecor::after,.lineaDecor::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    background-color:#4ECB71;
+    top: 0.9em;
+    @media all and (min-width: 768px){
+        width: 262px;
+    }
+    @media all and (min-width: 992px){
+        width: 377px;
+    }
+    @media all and (min-width: 1200px){
+        width: 480px;
+    }
+}
+
+.lineaDecor::before{
+    left: -140px;
+    @media all and (min-width: 768px){
+        left: -282px;
+    }
+    @media all and (min-width: 992px){
+        left: -397px;
+    }
+    @media all and (min-width: 1200px){
+        left: -500px;
+    }
+
+}
+
+.lineaDecor::after{
+    right: -140px;
+    @media all and (min-width: 768px){
+        right: -282px;
+    }
+    @media all and (min-width: 992px){
+        right: -397px;
+    }
+    @media all and (min-width: 1200px){
+        right: -500px;
+    }
+
+}
+
+.form-control{
+    background-color: #F5F1F1;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    &:focus{
+        border: 1px solid #6200EE;        ;
+        background-color: #F5F1F1;
+        outline:none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+}
+
+.numeracionForm{
+    color: $verdeNavbar;
+}
+
+.fontForm{
+    @include h3Home;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.pForm{
+    @include h3Home;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.letraVerde{
+    @include h3MDP;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bg-nav{
+    background-color: #4ECB71;
+}
+.bgW{
+    background-color: white;
+}
+.linkNav{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: #000000;
+    border: 0.5px solid #4ECB71;
+    padding-left: 10px;
+}
+.wImage{
+    width: 24px;
+    height: 24px;
+}
+
+.linkNav:focus{
+    background-color: #FFD233;
+}
+
+.tachado {
+    text-decoration: line-through;
+    color: $verdeNavbar;
+}
+
+.whatsapp{
+    @include h3MDP;
+    font-weight: bold;
+    font-size: 17px;
+}    
+
+.pContacto{
+    @include h3Home;
+    font-weight: lighter;
+    font-size: 12px;
+}

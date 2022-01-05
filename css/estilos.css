@@ -1,6 +1,4 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap");
-/*esto morirá*/
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #F5F1F1;
@@ -145,4 +143,243 @@ body {
   line-height: 128.91%;
   /* or 22px */
   color: #010101;
+}
+
+.bordeTopVerde::before {
+  content: "";
+  /* This is necessary for the pseudo element to work. */
+  display: block;
+  /* This will put the pseudo element on its own line. */
+  margin: 0 auto;
+  /* This will center the border. */
+  width: 100%;
+  /* Change this to whatever width you want. */
+  padding-bottom: 20px;
+  /* This creates some space between the element and the border. */
+  border-top: 1px solid #4ECB71;
+}
+
+.h3Testimonios {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.h2Testimonios {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.respuestas {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.normal {
+  font-weight: lighter;
+}
+
+.pTestimonios {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.preguntasF {
+  font-style: italic;
+  font-weight: 800;
+  font-size: 15px;
+  color: #4ECB71;
+}
+
+.lineaDecor {
+  display: inline-block;
+  position: relative;
+}
+
+.lineaDecor::after, .lineaDecor::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 1px;
+  background-color: #4ECB71;
+  top: 0.9em;
+}
+
+@media all and (min-width: 768px) {
+  .lineaDecor::after, .lineaDecor::before {
+    width: 262px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .lineaDecor::after, .lineaDecor::before {
+    width: 377px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .lineaDecor::after, .lineaDecor::before {
+    width: 480px;
+  }
+}
+
+.lineaDecor::before {
+  left: -140px;
+}
+
+@media all and (min-width: 768px) {
+  .lineaDecor::before {
+    left: -282px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .lineaDecor::before {
+    left: -397px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .lineaDecor::before {
+    left: -500px;
+  }
+}
+
+.lineaDecor::after {
+  right: -140px;
+}
+
+@media all and (min-width: 768px) {
+  .lineaDecor::after {
+    right: -282px;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .lineaDecor::after {
+    right: -397px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .lineaDecor::after {
+    right: -500px;
+  }
+}
+
+.form-control {
+  background-color: #F5F1F1;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.form-control:focus {
+  border: 1px solid #6200EE;
+  background-color: #F5F1F1;
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.numeracionForm {
+  color: #4ECB71;
+}
+
+.fontForm {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.pForm {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.letraVerde {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #4ECB71;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.bg-nav {
+  background-color: #4ECB71;
+}
+
+.bgW {
+  background-color: white;
+}
+
+.linkNav {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+  color: #000000;
+  border: 0.5px solid #4ECB71;
+  padding-left: 10px;
+}
+
+.wImage {
+  width: 24px;
+  height: 24px;
+}
+
+.linkNav:focus {
+  background-color: #FFD233;
+}
+
+.tachado {
+  text-decoration: line-through;
+  color: #4ECB71;
+}
+
+.whatsapp {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #4ECB71;
+  line-height: 18px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.pContacto {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #000000;
+  line-height: 18px;
+  font-weight: lighter;
+  font-size: 12px;
 }

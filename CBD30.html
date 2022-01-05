@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Consultas</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -64,92 +64,54 @@
         </header>
         <!--Termina header-->
 
-        <!--EMPIEZA CONTACTO-->
-        <div class="container d-flex flex-wrap justify-content-around">
-            <div class="container d-flex flex-wrap justify-content-around mt-5">
-                <div class="row flex-nowrap">
-                    <h2 class="somosGO col-lg-11 col-sm-11">Contacto</h2>
-                    <span>
-                        <i class="col-lg-1 col-sm-1">
-                            <img src="media/contacto/icono_ws_sm.svg" alt="icono de testimonios">    
-                        </i>
-                    </span>
-                </div>
-            </div>  
-            <div class="container">
-                <div class="row">
-                    <h3 class="h3Testimonios text-lg-center text-left ml-4">
-                        ¿Tenés dudas sobre los productos?
-                    </h3>
-                    <h3 class="h3Testimonios text-lg-center text-left ml-4">
-                        ¿Consultas sobre el CBD?
-                    </h3>
-                    <h3 class="h3Testimonios text-lg-center text-left ml-4">
-                        ¿Querés + info sobre las formas de pago de Green Oil? 
-                    </h3>
-                    <h3 class="h3Testimonios text-lg-center text-left ml-4">
-                        ¿Preguntas sobre el estado de tu envío?
-                    </h3>
-                    <h3 class="whatsapp text-lg-center text-left ml-4 mt-lg-5 mt-3">
-                        ¡Estamos esperando tu Whatsapp!
-                    </h3>
-                </div>
-                <div class="text-center mt-4">
-                    <img src="media/contacto/icono_ws_lg.svg" alt="">
-                </div>
-                <p class="pContacto mt-4">
-                    Al tocar el botón de whatsapp podes escribirnos sin tener que agendar ni memorizar nuestro nro.
-                </p>
-            </div>
-            <div class="container mt-4">
-                <div class="row">
-                    <h2 class="contactoHome text-left col-lg-11 col-sm-11">
-                        <span> 
-                            <i class="col-lg-1 col-sm-1"> 
-                                <img src="media/home/ws.svg" alt="icono de WhatsApp"> 
-                            </i> 
+        <!--EMPIEZA FORM-->
+        
+        <form class="container mt-5">
+            <div class="row">
+                <div class="col-12 mx-auto text-left">
+                    <h2 class="fontForm">
+                        <span class="numeracionForm">
+                            2. 
                         </span>
-                        11 2529 4623
+                        Escribí tu pregunta
                     </h2>
+                    <p class="pForm ml-4 mt-3">
+                        Completá el campo indicando tus dudas
+                    </p>
                 </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <h2 class="contactoHome text-left col-lg-11 col-sm-11">
-                        <span> 
-                            <i class="col-lg-1 col-sm-1"> 
-                                <img src="media/home/mail.svg" alt="icono de Mail"> 
-                            </i> 
+                <div class="form-group col-12 mx-auto mb-4">
+                    <textarea  name:"consulta" class="form-control" id="consulta" rows="4"></textarea>
+                </div>
+                <div class="bordeTopGris col-12 mx-auto text-left pt-2">
+                    <h2 class="fontForm">
+                        <span class="numeracionForm">
+                            3. 
                         </span>
-                        greenoilcaba@gmail.com
+                        Completá tus datos *
                     </h2>
+                    <p class="pForm ml-4 mt-3 mb-4">
+                        Así nuestro equipo se pone en contacto
+                    </p>
+                </div>
+                <div class="form-group col-12 mx-auto mb-3">
+                    <input type="text"  name:"nombre" class="form-control" id="nombre" placeholder="Nombre*">
+                </div>
+                <div class="form-group col-12 mx-auto mb-3">
+                    <input type="text"  name:"whatsapp" class="form-control" id="whatsapp" placeholder="Whatsapp*">
+                </div>
+                <div class="form-group col-12 mx-auto mb-3">
+                    <input type="email"  name:"email" class="form-control" id="email" placeholder="Mail*">
+                </div>
+                <div class="form-group col-12 mx-auto mb-3">
+                    <input type="text"  name:"codigoPostal" class="form-control" id="codigoPostal" placeholder="Código Postal*">
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <h2 class="contactoHome text-left col-lg-11 col-sm-11">
-                        <span> 
-                            <i class="col-lg-1 col-sm-1"> 
-                                <img src="media/home/insta.svg" alt="icono de Instagram"> 
-                            </i> 
-                        </span>
-                        @greenoilcaba
-                    </h2>
-                </div>
-            </div>
-            <h3 class="whatsapp text-lg-center text-left ml-4 mt-3">
-                ¡No te guardes ninguna pregunta! 
-            </h3>
-
-
-
-
-            <div class="container-fluid mt-3 mb-3">
-                <a href="#"><img src="media/contacto/contactarse.svg" alt="Boton para contactarse"></a>
-            </div>
-            <div class="container-fluid mx-0 mb-4">
-                <a href="#"><img src="media/contacto/volver_inicio.svg" alt="Boton para volver a inicio"></a>
-            </div>
+        </form>
+        <div class="container-fluid d-flex justify-content-around my-4">
+            <a href="#"><img src="media/formularios/enviar_consulta.svg" alt="Boton para enviar consultas"></a>
+        </div>
+        <div class="container-fluid d-flex justify-content-around mt-0 mb-5">
+            <a href="#"><img src="media/formularios/comprar_cbd.svg" alt="Boton para comprar CBD"></a>
         </div>
     </div>   
 
